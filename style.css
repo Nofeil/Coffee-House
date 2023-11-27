@@ -262,6 +262,7 @@ h6 {
 /* MOBILE-APP SECTION */
 .mobile-app {
   color: #403F3D;
+  margin-bottom: 240px;
 }
 
 .mobile-app__container {
@@ -326,4 +327,75 @@ h6 {
 .mobile-app__img {
   position: absolute;
   top: -145px;
+}
+
+/* FOOTER */
+.footer__container {
+  background-color: #665F55;
+  color: #E1D4C9;
+  border-radius: 40px;
+  display: flex;
+  max-width: 1360px;
+  height: 450px;
+  padding-top: 100px;
+}
+
+.social {
+  width: 530px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.social__title {
+  font-size: 60px;
+  line-height: 125%;
+  margin-bottom: 40px;
+}
+
+.social__list{
+  display: flex;
+}
+
+.social__icon {
+  margin-right: 11px;
+}
+
+.contacts {
+  padding-top: 33px;
+}
+
+.contacts__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 125%;
+  margin-bottom: 38px;
+}
+
+.contacts__item {
+  padding-left: 30px;
+  margin-bottom: 21px;
+}
+
+.contacts__link {
+  position: relative;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.link-before1::before {
+  position: absolute;
+  left: -30px;
+  content: url(assets/svg/pin.svg);
+}
+
+.link-before2::before {
+  position: absolute;
+  left: -30px;
+  content: url(assets/svg/phone.svg);
+}
+
+.link-before3::before {
+  position: absolute;
+  left: -30px;
+  content: url(assets/svg/clock.svg);
 }
