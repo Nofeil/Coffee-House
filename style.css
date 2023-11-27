@@ -157,6 +157,7 @@ h6 {
 /* FACOURITES_COFFEE SECTION */
 .favourites-coffee {
   color: #403F3D;
+  margin-bottom: 98px;
 }
 
 .favorites-coffee__title {
@@ -220,4 +221,34 @@ h6 {
 .switcher__div2,
 .switcher__div3 {
   background-color: #C1B6AD;
+}
+
+/* ABOUT */
+.about {
+  color: #403F3D;
+}
+
+.about__title {
+  font-size: 60px;
+  line-height: 125%;
+  margin-left: 40px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.gallery__box4 {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+
+.gellery__img {
+  border-radius: 20px;
 }
