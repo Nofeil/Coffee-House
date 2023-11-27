@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee House</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/normalize/normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__container">
+      <img class="logo" src="assets/svg/logo.svg" alt="logo" width="100" height="60">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#">Favorite coffee</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Mobile app</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Contact us</a></li>
+        </ul>
+      </nav>
+      <div class="menu">
+        <p class="menu__btn">Menu</p>
+        <img class="menu__img" src="assets/img/header/coffee-cup.png" alt="a cup of coffee" width="20" height="20">
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="enjoy">
+      <div class="container enjoy__container">
+        <img class="enjoy__background" src="assets/img/enjoy/img-hero.jpg" alt="background">
+        <div class="enjoy__content">
+          <h1 class="enjoy__title"><span class="accent">Enjoy</span> premium coffee at our charming cafe</h1>
+          <p class="enjoy__text">With its inviting atmosphere and delicious coffee options, the Coffee House Resource is
+            a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite
+            beverage.</p>
+          <button class="enjoy__btn">Menu</button>
+        </div>
+        <div class="enjoy__empty-contant"></div>
+      </div>
+    </section>
+    <section class="favourites-coffee">
+      <div class="container favourites-coffee__container">
+        <h2 class="favorites-coffee__title">Choose your <span class="accent">favorite</span> coffee</h2>
+        <div class="card__wrapper">
+          <img class="arrow-left" src="assets/svg/arrow-left.svg" alt="switch coffee type">
+          <div class="card">
+            <img class="card__img" src="assets/img/favourites-coffee/coffee-slider-1.png"
+              alt="a cup S`mores Frappuccino">
+            <h3 class="card__title">S’mores Frappuccino</h3>
+            <p class="card__text">This new drink takes an espresso and mixes it with brown sugar and cinnamon before
+              being
+              topped with oat milk.</p>
+            <h3 class="card__price">$5.50</h3>
+          </div>
+          <img class="arrow-right" id="right-arrow" src="assets/svg/arrow-right.svg" alt="switch coffee type">
+        </div>
+        <div class="switcher">
+          <div class="switcher__div1"></div>
+          <div class="switcher__div2"></div>
+          <div class="switcher__div3"></div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container about__container">
+        <h2 class="about__title">Resource is <span class="accent">the perfect and cozy place</span> where you can enjoy
+          a variety of hot beverages,
+          relax, catch up with friends, or get some work done.</h2>
+        <div class="gallery">
+          <div class="gallery__box">
+            <img class="gellery__img" src="assets/img/about/about-1.png" alt="girl stirs coffee">
+          </div>
+          <div class="gallery__box">
+            <img class="gellery__img" src="assets/img/about/about-2.png" alt="man holding a cupof coffee">
+          </div>
+          <div class="gallery__box">
+            <img class="gellery__img" src="assets/img/about/about-3.png" alt="a cup of coffee standing on the plate">
+          </div>
+          <div class="gallery__box4">
+            <img class="gellery__img" src="assets/img/about/about-4.png" alt="couple drinks coffee">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mobile-app">
+      <div class="container mobile-app__container">
+        <div class="mobile-app__content">
+          <h2 class="mobile-app__title"><span class="accent">Download</span> our apps to start ordering</h2>
+          <p class="mobile-app__text">Download the Resource app today and experience the comfort of ordering your
+            favorite coffee from wherever you are</p>
+          <div class="mobile-app__btn-container">
+            <img class="mobile-app__btn-img" src="assets/svg/apple.svg" alt="apple icon">
+            <p class="mobile-app__text-sup">Available on the</p>
+            <p class="mobile-app__text-sub">App Store</p>
+          </div>
+          <div class="mobile-app__btn-container">
+            <img class="mobile-app__btn-img" src="assets/svg/google.svg" alt="google icon">
+            <p class="mobile-app__text-sup">Available on</p>
+            <p class="mobile-app__text-sub">Google Play</p>
+          </div>
+        </div>
+        <div class="mobile-app__img-container">
+          <img class="mobile-app__img" src="assets/img/mobile-app/mobile-screens.png" alt="smartphone">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="social">
+        <h2 class="social__title">Sip, Savor, Smile. <span class="accent">It’s coffee time!</span></h2>
+        <ul class="social__list">
+          <li class="social__item"><a href="https://twitter.com/" target="_blank" class="social__link"><img
+                src="assets/svg/twitter.svg" alt="twitter icon" class="social__icon"></a></li>
+          <li class="social__item"><a href="https://instagram.com/" target="_blank" class="social__link"><img
+                src="assets/svg/instagram.svg" alt="instagram icon" class="social__icon"></a></li>
+          <li class="social__item"><a href="https://facebook.com/" target="_blank" class="social__link"><img
+                src="assets/svg/facebook.svg" alt="facebook icon" class="social__icon"></a></li>
+        </ul>
+      </div>
+      <div class="contacts">
+        <h3 class="contacts__title">Contact us</h3>
+        <ul class="contacts__list">
+          <li class="contacts__item"><a href="https://maps.app.goo.gl/z7v9hd5Py5jCm2s18" target="_blank"
+              class="contacts__link link-before1">8558 Green Rd., LA</a></li>
+          <li class="contacts__item"><a href="tel:+16035550123" target="_blank" class="contacts__link link-before2">+1 (603)
+              555-0123</a></li>
+          <li class="contacts__item"><a href="#" class="contacts__link link-before3">Mon-Sat: 9:00 AM – 23:00 PM</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
