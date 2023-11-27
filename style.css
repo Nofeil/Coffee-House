@@ -1,0 +1,60 @@
+/* GENERAL */
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #E1D4C9;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HEADER */
+.header {
+  color: #403F3D;
+  font-weight: 600;
+  line-height: 150%;
+  margin: 20px 0 10px;
+}
+
+.logo {
+  display: block;
+  margin-left: 40px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 40px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.menu__img {
+  display: block;
+  margin-left: 10px;
+}
