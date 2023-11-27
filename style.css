@@ -1,6 +1,7 @@
 /* GENERAL */
 * {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
@@ -25,6 +26,21 @@ a {
 
 p {
   margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.accent {
+  font-style: italic;
+  color: #B0907A;
 }
 
 /* HEADER */
@@ -75,4 +91,64 @@ p {
 .menu__img {
   display: block;
   margin-left: 10px;
+}
+
+/* SECTION ENJOY */
+.enjoy {
+  color: #E1D4C9;
+}
+
+.enjoy__container {
+  display: flex;
+  justify-content: center;
+  padding: 110px;
+}
+
+.enjoy__background {
+  position: absolute;
+  border-radius: 40px;
+  width: 1360px;
+  height: 644px;
+  top: 100px;
+  z-index: -10;
+}
+
+.enjoy__content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  row-gap: 40px;
+  max-width: 530px;
+}
+
+.enjoy__title {
+  font-size: 72px;
+  line-height: 105%;
+}
+
+.enjoy__text {
+  line-height: 150%;
+}
+
+.enjoy__btn {
+  position: relative;
+  width: 200px;
+  height: 64px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: #E1D4C9;
+  color: #403F3D;
+  border: none;
+}
+
+.enjoy__btn:hover:after {
+  content: url(assets/img/header/coffee-cup.png);
+  position: absolute;
+  left: 128px;
+  
+}
+
+.enjoy__empty-contant {
+  width: 630px;
 }
