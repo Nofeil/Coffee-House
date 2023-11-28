@@ -487,8 +487,8 @@ h6 {
   flex-wrap: wrap;
   column-gap: 40px;
   row-gap: 40px;
-  margin-left: 102px;
   margin-bottom: 105px;
+  padding-left: 40px;
 }
 
 .table__item {
