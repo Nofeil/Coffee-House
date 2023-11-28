@@ -399,3 +399,80 @@ h6 {
   left: -30px;
   content: url(assets/svg/clock.svg);
 }
+
+/* OFFER */
+.offer {
+  margin-top: 20px;
+}
+
+.offer__title {
+  font-size: 60px;
+  line-height: 125%;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.menu__btn-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+}
+
+.menu__btm {
+  position: relative;
+  padding-left: 37px;
+  border: 1px solid #C1B6AD;
+  color: #403F3D;
+  border-radius: 100px;
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 16px;
+}
+
+.menu__btm1 {
+  width: 115px;
+  height: 46px;
+}
+
+.menu__btm2 {
+  width: 90px;
+  height: 46px;
+}
+
+.menu__btm3 {
+  width: 124px;
+  height: 46px;
+}
+
+.menu__btm1:before {
+  position: absolute;
+  left: 7px;
+  top: 6px;
+  content: url(assets/img/menu/coffee.png);
+}
+
+.menu__btm2:before {
+  position: absolute;
+  left: 7px;
+  top: 6px;
+  content: url(assets/img/menu/tea.png);
+}
+
+.menu__btm3:before {
+  position: absolute;
+  left: 7px;
+  top: 6px;
+  content: url(assets/img/menu/dessert.png);
+}
+
+.menu__btm:hover {
+  background-color: #665F55;
+  color: #E1D4C9;
+}
+
+.active {
+  background-color: #665F55;
+  color: #E1D4C9;
+}
